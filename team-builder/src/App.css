@@ -59,3 +59,8 @@ fieldset {
   width: 100%;
   border: 0px;
 }
+.member-list{
+  background-color: beige;
+  display: flex;
+  align-content: space-around;
+}

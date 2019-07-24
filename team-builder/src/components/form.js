@@ -4,8 +4,7 @@ import React, { useState } from "react";
 export default function Form() {
   // Use an object to track multiple fields:
   const [member, setMember] = useState({ name: "", email: "", role: "" });
-  // const [username, setUsername] = useState("");
-  // const [email, setEmail] = useState("");
+  
   /*
 Controlled Inputs
 
