@@ -38,22 +38,22 @@ demonstrate the ability to handle multiple inputs in a form
 
   function handleSubmit(event) {
     event.preventDefault();
-    console.log("name", name);
+    //console.log("name", name);
   }
 
   return (
     <form onSubmit={handleSubmit}>
       <fieldset>
-        <legend>Add New Member</legend>
+        <legend>New Member</legend>
         <div className="form-group row">
-          <label for="username" className="col-sm-2 col-form-label">
+          <label for="name" className="col-sm-2 col-form-label">
             Name
             <div className="col-sm-10">
               <input
                 type="text"
                 className="form-control"
-                name="username"
-                placeholder="Enter your username"
+                name="name"
+                placeholder="Enter name"
                 value={member.name}
                 onChange={handleChange}
               />
