@@ -60,7 +60,7 @@ fieldset {
   border: 0px;
 }
 .member-list{
-  background-color: beige;
+  background: rgb(228, 223, 230);
   display: flex;
-  align-content: space-around;
+  justify-content: space-around;
 }
